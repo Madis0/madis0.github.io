@@ -155,7 +155,7 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
+  padding-top: 1rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
@@ -194,4 +194,22 @@ a {
 
 a:hover, a:focus, a:active {
   color: var(--primary-hover-color);
+}
+
+.mobile-only {
+   display: none; 
+}
+
+@media screen and (max-width: 990px) {
+  .mobile-only {
+    display: block; 
+  }
+}
+
+.secondary-profile {
+  padding-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
 }
